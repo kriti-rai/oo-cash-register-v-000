@@ -16,6 +16,7 @@ class CashRegister
  end
 
  def apply_discount
+   puts @discount
    if @discount != 0
      discount = (@discount/100)
     total_discount = (@total * discount)
